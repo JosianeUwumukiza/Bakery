@@ -1,4 +1,5 @@
 
+
 /**
  * Write a description of class BakedGood here.
  *
@@ -24,5 +25,20 @@ public class BakedGood
         this.price=price;
         this.quantity=quantity;
     }
-
+    //modify the quantity
+    public void increaseQuantity(int count){
+        this.quantity+=count;
+    }
+    //toString
+    public String toString(){
+        return "baked good: "+this.name+"(" + this.quantity +"@"+this.price+")";
+    }
+    //main method
+    
+    public static void main(String[] args){
+        BakedGood croissant = new BakedGood("croissant","butter,flour,laminate, yum", 20.0,0);
+        croissant.increaseQuantity(12);
+        System.out.println(croissant.toString());
+    }
+    
 }
