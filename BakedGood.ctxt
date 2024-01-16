@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=BakedGood
+comment0.text=\n\ Write\ a\ description\ of\ class\ BakedGood\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=name\ recipe\ price\ quantity
+comment1.target=BakedGood(java.lang.String,\ java.lang.String,\ double,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ BakedGood\n
+numComments=2
