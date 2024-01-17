@@ -1,0 +1,5 @@
+#ignore anything ending in .class and .ctxt
+*.class
+*.ctxt
+#ignore package.bluej file
+package.bluej
